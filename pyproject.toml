@@ -348,7 +348,7 @@ dev = [
 ]
 
 [project.entry-points.'nat.components']
-nat_agents = "nat.agent.register"
+# nat_agents = "nat.agent.register"
 nat_authentication = "nat.authentication.register"
 nat_control_flow = "nat.control_flow.register"
 nat_embedders = "nat.embedder.register"
